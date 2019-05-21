@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">examen</string>
+    <string name="etp">UNIDADES DE CONVERSION</string>
+    <string name="et1">UNIDADES DE TEMPERATURA</string>
+    <string name="et2">UNIDADES DE AREA</string>
+    <string name="et3">UNIDADES DE DISTANCIA</string>
+    <string name="btncelfa">CELSIUS A FARENHEIT</string>
+    <string name="btnfarce">FARENHEIT  A CELCIUS</string>
+    <string name="btncelke">CELSIUS A KELVIN</string>
+    <string name="btnkecel">KELVIN A CELSIUS</string>
+    <string name="btnhecmet">HECTAREAS A METROS</string>
+    <string name="btnmethec">METROS A HECTAREAS</string>
+    <string name="btnmetkil">METROS A KILOMETROS</string>
+    <string name="btnkilmet">KILOMETROS A METROS</string>
+    <string name="btnmetcen">METROS A CENTIMETROS</string>
+    <string name="btncenmet">CENTIMETROS A METROS</string>
+    <string name="btnceninch">CENTIMTROS A INCH</string>
+    <string name="btninchcen">INCH A CENTIMETROS</string>
+
+
+</resources>

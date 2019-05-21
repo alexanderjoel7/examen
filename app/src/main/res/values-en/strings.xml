@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">examen</string>
+    <string name="etp">CONVERSION UNITS</string>
+    <string name="et1">TEMPERATURE UNIDS</string>
+    <string name="et2">AREA UNIDS</string>
+    <string name="et3">DISTANCE UNIDS</string>
+    <string name="btncelfa">CELSIUS A FARENHEIT</string>
+    <string name="btnfarce">FARENHEIT  A CELCIUS</string>
+    <string name="btncelke">CELSIUS A KELVIN</string>
+    <string name="btnkecel">KELVIN A CELSIUS</string>
+
+    <string name="btnhecmet">HECTARE TO METER</string>
+    <string name="btnmethec">METER TO HECTARE</string>
+    <string name="btnmetkil">METER TO KILOMETER</string>
+    <string name="btnkilmet">KILOMETER TO METER</string>
+
+    <string name="btnmetcen">METER TO CENTIMETER</string>
+    <string name="btncenmet">CENTIMETER TO METER</string>
+    <string name="btnceninch">CENTIMETER TO INCH</string>
+    <string name="btninchcen">INCH TO CENTIMETER</string>
+
+</resources>

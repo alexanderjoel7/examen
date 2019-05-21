@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:textAlignment="center">
+
+
+        <TextView
+            android:id="@+id/etp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cursorVisible="true"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="right"
+            android:hint="@string/etp"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/et1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etp"
+            android:layout_marginTop="36dp"
+            android:cursorVisible="true"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="right"
+            android:hint="@string/etp"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="22dp" />
+
+    <!--<botones>-->
+        <Button
+            android:id="@+id/btncelfa"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/et1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="40dp"
+            android:hint="@string/btncelfa"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btnfarce"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/et1"
+            android:layout_toEndOf="@+id/btncelfa"
+            android:layout_toRightOf="@+id/btncelfa"
+            android:hint="@string/btnfarce"
+            android:textSize="18dp" />
+
+
+
+    <!--<botones>-->
+        <Button
+            android:id="@+id/btncelke"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/btnfarce"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="40dp"
+            android:hint="@string/btncelke"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btnkecel"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/btncelfa"
+            android:layout_toEndOf="@+id/btncelke"
+            android:layout_toRightOf="@+id/btncelke"
+            android:hint="@string/btnkecel"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/et2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btncelke"
+            android:cursorVisible="true"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="right"
+            android:hint="@string/et2"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+    <!--<botones>-->
+        <Button
+            android:id="@+id/btnhecmet"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/et2"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="40dp"
+            android:hint="@string/btnhecmet"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btnmethec"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/et2"
+            android:layout_toEndOf="@+id/btncelke"
+            android:layout_toRightOf="@+id/btncelke"
+            android:hint="@string/btnmethec"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btnmetkil"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/btnhecmet"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="40dp"
+            android:hint="@string/btnmetkil"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btnkilmet"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/btnhecmet"
+            android:layout_toEndOf="@+id/btnmetkil"
+            android:layout_toRightOf="@+id/btnmetkil"
+            android:hint="@string/btnkilmet"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/et3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnmetkil"
+            android:cursorVisible="true"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="right"
+            android:hint="@string/et3"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+    <!--<botones>-->
+        <Button
+            android:id="@+id/btnmetcen"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/et3"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="40dp"
+            android:hint="@string/btncenmet"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btncenmet"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/et3"
+            android:layout_toEndOf="@+id/btnmetcen"
+            android:layout_toRightOf="@+id/btnmetcen"
+            android:hint="@string/btncenmet"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btnceninch"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/btncenmet"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="40dp"
+            android:hint="@string/btnceninch"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btninchcen"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/btncenmet"
+            android:layout_toEndOf="@+id/btnceninch"
+            android:layout_toRightOf="@+id/btnceninch"
+            android:hint="@string/btninchcen"
+            android:textSize="18dp" />
+
+
+
+</RelativeLayout>
+ </android.support.v7.widget.Toolbar>
